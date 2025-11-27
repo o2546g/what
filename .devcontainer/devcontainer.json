@@ -1,0 +1,8 @@
+{
+  "name": "hm",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu24.04",
+  "features": {
+    "ghcr.io/devcontainers/features/java:1": {},
+    "ghcr.io/devcontainers/features/rust:1": {}
+  }
+}
