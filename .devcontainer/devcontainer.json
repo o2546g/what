@@ -3,7 +3,11 @@
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu24.04",
   "features": {
     "ghcr.io/devcontainers/features/java:1": {},
-    "ghcr.io/devcontainers/features/rust:1": {},
     "ghcr.io/tailscale/codespace/tailscale:latest": {} 
-  }
+  },
+  "runArgs": [
+    "--device=/dev/net/tun",
+    "--cap-add=NET_ADMIN",
+    "--cap-add=NET_RAW"
+  ]
 }
