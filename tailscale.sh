@@ -5,4 +5,4 @@ curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/noble.tailscale-keyring.list
 
 sudo apt update -y
 sudo apt upgrade -y
-sudo apt install tailscale
+sudo apt install tailscale -y
